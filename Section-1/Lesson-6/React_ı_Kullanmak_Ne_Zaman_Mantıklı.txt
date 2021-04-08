@@ -1,1 +1,3 @@
+React Sanal Dom mimarisini kullanan bir yapı olduğu için ve render işlemlerini çok mantıklı bir biçimde farklılıkları gözeterek yaptığı için Dom üzerinde çok fazla değişikliğin olduğu projelerde kullanmak mantıklı olacaktır. Ekranda sürekli veri değişiminin olduğu projelerde kullanmak mantıklı olacaktır.
 
+İşlemlerin genellikle UI tarafında olduğu projelerde kullanmak mantıklı olacaktır.
