@@ -1,0 +1,2 @@
+es6'da modül sisteminde kullandığımız bazı keywordlar kullanılmıyor. Mesela import keyword'ü gibi. Bu desteğin sağlanabilmesi es6 yazdığımız kodları es5'e çevirmesi için babel'i kurmamız lazım.
+
