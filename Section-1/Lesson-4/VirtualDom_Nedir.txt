@@ -1,0 +1,5 @@
+Dom(Document Object Model) : Web sayfalarının bize görünmesini sağlayan html elemanlarının hiyerarşik biçimde bir arada bulunmasını anlamına geliyor. Dom'da bir olay olduğunda sayfayı komple render etmek durumunda kalıyor. Bu biraz performansız olabilir.
+
+Virtual Dom (Sanal Dom) : Dom'un key value şeklinde memory'de bulunması haline denir. Yani bir kopyası key value şeklinde memory de bulunuyor. Virtual Dom, Real Dom ile client arasında bulunur. Bir değişiklik olduğunda tüm sayfayı render etmek yerine değişikliğin bulunduğu tespit ederek oradaki değişikliği yapar.
+
+
