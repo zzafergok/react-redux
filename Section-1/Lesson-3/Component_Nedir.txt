@@ -1,0 +1,3 @@
+Component, en ufak işi getiren elemnaların bir araya gelmesi ile oluşan yapıdır.
+
+Mesela bir card tasarladık ve biz bunu briden fazla yerde kullanmak istiyoruz. Bunun için her defasında yazdığımız html kodlarını kopyala yapıştır yapmak yerine bir kere yazıp daha sonra bunu diğer sayfalarda çağırarak kullanabiliriz. Buna Component denir.
