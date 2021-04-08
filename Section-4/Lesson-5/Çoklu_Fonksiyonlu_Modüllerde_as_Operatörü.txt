@@ -1,0 +1,9 @@
+Modül sayfamızda çok fazla modul olduğunu varsayalım ve biz bunların hepsinin adını importlamak istemiyoruz diyoruz. Bunun için yapmamız gereken çok basit bir iş var.
+
+import * as myModule from "dosya yolu";
+
+bu şekilde tanımladıktan sonra :
+
+console.log(myModule.topla(2,3));
+
+diyerek myModule içindeki tüm modüllere bu şekilde ulaşabiliriz.
