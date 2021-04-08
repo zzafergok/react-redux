@@ -1,0 +1,5 @@
+View katmanını jsx görünümlü aslında javascript yazarak oluşturuyoruz bu böyle biraz html'e, xml'e benzeyen bir yapı. Bütü view katmanını bu jsx denen şey ile oluşturuyoruz.  
+
+Özetle html benzeri syntax ile javascript objesi tanımlamaya yarıyor.  
+
+JSX'in Parent'ı, tipi ve içeriği olması gerekiyor. Bunlar kullanılarak oluşturulan obje, arayüzü oluşturacak asıl olan kodu derler. 
