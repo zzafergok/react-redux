@@ -1,0 +1,11 @@
+es6 nın özelliklerinde biri olan tek satırda return işlemini yapmak hayatımızı dazla kod yazmaktan kurtarıyor.
+
+örnek :
+
+const test = (a,b) => a + b;
+
+// eski hali
+
+const test = (a,b) => {
+    return a + b;
+}
