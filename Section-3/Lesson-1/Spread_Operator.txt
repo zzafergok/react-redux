@@ -1,0 +1,3 @@
+spread yaymak anlamına geliyor aslında.
+
+Ekleme yapmaya yarıyor. Objede ya da array daeleman eklerken kullanılabilir. Eklediği elemanı her zaman en başa ekliyor.
