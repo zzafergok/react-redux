@@ -1,0 +1,5 @@
+es6 ile yeni gelen modül sistemi.
+
+modulü kullanabilmek için exportlamamız lazım.
+
+Modülümzü başka bir klasör kullanacağımız zaman '{}' içinde ismini girerek importlamamız lazım. 
