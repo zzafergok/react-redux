@@ -1,0 +1,7 @@
+Bu kısımda yapmak istediğimiz olay şu; biz bir component yaptık ve bu component'i birden fazla kullanacağız ve bunu ana component'te yapmak istmemiyoruz. Bunun için bu yapıyı oluşturmak için önce birdne fazla gözükecek olan component'imizi başka bir dosya oluşturup onun içinde çağırıp dilediğimiz kadar çağırmak ve bunu günün sonunda ana component'imizde kullanmak.
+
+Böl parçala yönet yaptık aslında.
+
+NewsItem > News > App
+
+küçükten büyüğe doğru yukarıdaki şekilde olmuştur oluşturduğumuz yapı.
