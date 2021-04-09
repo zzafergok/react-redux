@@ -1,0 +1,7 @@
+react dom normalde react'ın içerisinde default olarak gelmekteydi. Ama daha sonrasında react native diye bir yapıda çıkınca ve bu yapınında react-dom'a ihtiyacı olduğunu anladığı zaman ayrılmaya ve ekstra bir dependecies olarak yüklenmesinde karar kılındı.
+
+react-scripts ise script taglerimizin çalışmasını sağlayan bir yapı.
+
+bir dosyamızı başka bir bir soya dizininde çağırıp kullanmak istediğimizde aç kapa yapmamıza gerek yok tek tag ile yazabiliriz mesela :
+<App></App> => eğer bunun içi bir element alacaksa bu şekilde yazılıp içine gerekli elementleri yerleştirebiliriz.
+Ama içine bir element geçmeyecek isek : <App/> bu şekilde tanımlayabiliriz
