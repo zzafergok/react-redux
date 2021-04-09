@@ -1,0 +1,11 @@
+componentimizin içinde değişken kullanabilmek için basit yollar vardır bunlardan bir tanesi :
+
+    {
+        2+2
+    }
+
+    bu işlemin sonucunu ekrana basacaktır. Ya da şe şekilde de yapabiliriz :
+
+        render methodumuzun içinde, let nameElement = <div>zafer</div>
+
+        daha sonra bu yazdığımız kodu return'un içindeki div'de yazacak olduğumuzda ekrana zafer yazısını basacaktır.
