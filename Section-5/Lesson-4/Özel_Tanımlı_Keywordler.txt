@@ -1,0 +1,10 @@
+özel tanımlı keywordler bazı değişiklikler oluyor react'ın return kısmı içerisinde çünkü artık biz html yazmıyoruz. Mesela ne gibi değişiklikler bunlar :
+
+class yazacağımız zaman artık bu şekilde yazmamız lazım 'className' olarak yazmamız gerekiyor olacak.
+Bir diğer örneğimiz ise,
+
+for => <label for=""></label> 
+
+olarak yazılıyor iken artık bu şekilde değil de şu şekilde yazılıyor olacak : 
+
+htmlFor => <label htmlFor=""></label> 
