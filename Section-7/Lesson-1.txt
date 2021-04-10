@@ -1,3 +1,16 @@
 Soru : Event Oluşturmak ve Context Bind Etmek
 
-Cevap : 
+Cevap : Event demek aslında bir şey tetiklendiğinde çalışacak yapıyı yazmak anlamına gelir türkçe meali. Herkesin bildiği bir diğer adı da function.
+
+Burada ilk yaptığımız iş child'ımızda bir function yazdık(render methodunun hemen üstünde yazıyoruz).
+Ve console atarak tetiklendiğini console tarafında görmekti. Yazdırdığımız yazıyı gördüğümüze göre bir sonraki işimiz parent'ımızdaki propsumuzun içini değiştirebilmek için yazdığımız function'ı parent'a taşımak gerekiyor.
+
+Bunu yapmadan önce parent'ımızda da bir function oluşturuyoruz ve oluşturduğumuz function'ı News componentimize props geçmemiz lazım onu geçerken de functionAdı={this.functionAdı} olarak geçiyoruz ve News Componenti içindeki NewsForm componentimize de props geçmemiz lazım. 
+
+NewsForm componentimize geçtiğimize göre artık addButton Componenti içinde çağırabiliriz. Ama çağırmadan önce button elementimizde function'umuzu çağırdığımız zaman bind etmemiz lazım onu da şöyle yazabiliriz : 
+onClick={this.functionAdı.bind(this)} olarak yazarız.
+
+addButton function'umuzun içinde parent'ımızdaki function'umuzu bu şekilde karşılayabiliriz : 
+this.props.addNews();
+
+olarak kullandıktan sonra artık child'da tanımladığımız function'u parent'ımızda kullanabiliriz.
