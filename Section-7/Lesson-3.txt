@@ -1,0 +1,4 @@
+Soru : Arrow Function ile Binding
+
+Cevap : 
+
