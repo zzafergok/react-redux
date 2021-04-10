@@ -1,0 +1,3 @@
+React developer tools bize o anki açık sayfa kullanılan propslarımızı ve statelerimizi görmemizi sağlayan bir tool'dur.
+
+Gösterdiği propslarımızın değerlerini de görebilmemizi sağlar.
