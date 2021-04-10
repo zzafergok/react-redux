@@ -1,0 +1,1 @@
+PropTypes.shape({}) kullanımının amacı da karşıladığımız bir obje veya array olabilir ve bu kendi içerisinde dallanmış, budaklanmış olabilir. Bizde bunların içerisinden hepsine veya bazılarına bunlar gerekli ve zorunlu dememmiz gerekebilir. Bu durumu shape({}) kullanarak çözmüş oluyoruz.
