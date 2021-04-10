@@ -1,3 +1,5 @@
 Soru : JSX İçerisinde Arrow Function ile Binding
 
-Cevap : 
+Cevap : JSX içerisinde function'umuzu tanımlarken arrow function kullanarak yazdığımızda da bind etmiş oluruz.
+
+örnek : onClick={() => this.functionAdı()} olarak yazabiliriz.
