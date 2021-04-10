@@ -1,0 +1,10 @@
+Sayfamız açıldığında ya da yüklendiğinde de diyebiliriz. Çalışmasını istediğimiz propslarımız ya da statelerimiz olabilir. Bunlar için : 
+
+    constructor(props){
+        super();
+        console.log(props);
+    }
+
+    diyerek burada çalıştırabiliriz.
+
+Not:: constructor'ımızı render methodunun hemen üstünde class'ımızın hemen altında tanımlamamız gerekiyor.
