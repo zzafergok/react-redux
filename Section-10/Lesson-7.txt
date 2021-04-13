@@ -1,0 +1,3 @@
+soru : component will update ?
+
+cevap: shouldComponentUpdate eğer true dönerseki durumda çalışacak pşan eventtir. False dönerse bu event çalışmaz. Ama shouldComponentUpdate yazılmadıysa her zaman true döner.
