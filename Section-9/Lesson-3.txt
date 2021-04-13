@@ -1,0 +1,3 @@
+yapılanlar : 
+
+Form Componentimizi oluşturmuştuk. Şimdi de onun html içeriklerini yazdık.

@@ -1,0 +1,3 @@
+yapılanlar: 
+
+Listelediğimiz verileri dizi halinde parent sayfasımızda oluşturduk. Oluşturduğumuz diziyi prop olarak child componentimize geçtik. Prop olarak dizimi listeye map'ledik.
