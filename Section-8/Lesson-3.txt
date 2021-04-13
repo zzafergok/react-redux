@@ -1,0 +1,3 @@
+soru re-Render nedir?
+
+cevap : re-Render olayı state'imizin değişecek bir özelliği kalmadığı zaman react state'imizi render etmez.
