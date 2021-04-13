@@ -1,0 +1,14 @@
+soru : setState Nedir?
+
+cevap: DOM yapımızda default olarak verilen datayı değiştirmek istediğimizde, bildiğimiz üzere react'ta one way data binding felsefesi olduğu için datamızın değiştiğini haber vermemizi sağlayan bir fonksiyondur.
+
+React'ın güçlü olmasının en temel özelliklerinden bir tanesidir.
+
+state= {
+    name:"yunus"
+}
+
+setState({
+    name:"zafer"
+})
+
