@@ -1,0 +1,3 @@
+yapılanlar: 
+
+contacts compoennetimizde tanımladığımız state'imizi ana dizinimize taşıdık. Çünkü oluşturduğumuz componenti başka bir sayfada kullandığımız zaman yazdığımız state'i birden fazla yerde çağıracağımız için render'lama işleminde sıkıntı olabileceği için ana componente taşıdık.
