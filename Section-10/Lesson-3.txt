@@ -1,0 +1,5 @@
+soru : component Did Mount nedir?
+
+cevap : 
+ 
+ Render edildikten sonra çalışan eventtir. setState vb. işlemler yapıldığında tekrar render etmesini sağlar. Axios çağrılarını yönettiğimiz ve kontrol ettiğimiz bir yapıdır.
