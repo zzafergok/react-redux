@@ -1,0 +1,7 @@
+soru : constructor nedir?
+
+cevap: sayfa ilk yüklendiğinde çalışmasını istediğimiz değerlerin çalışmasını sağlayan yapıdır.
+
+constructor içerisinde initial state tanımlayabiliriz, metodlarımızı bind ederiz.
+
+initial state verdiğimizde ve aynı zamanda başka bir state daha tanımladığımızda initial state'imiz çalışacaktır. Çünkü okuma sırasında en sonda tanımladığımız state constructor içerisinde olduğu içindir.
