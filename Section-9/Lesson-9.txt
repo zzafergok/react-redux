@@ -1,0 +1,7 @@
+Öğrenilenler :
+
+En son contacts componentimizde hiç state kullanılmadılğı için stateless yapıya geçirdik.
+
+Form elemanlarını geçmeyi öğrendik. Bir fonksiyondan bir başka fonksiyona değer geçmeyi öğrendik. Propslar üzerinde mapleme işlemlerini öğrendik.
+onChange ve onClick eventlerinin mantığını kavradık.
+
