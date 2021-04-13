@@ -1,0 +1,19 @@
+soru : component did mount hiyerarşisi nedir?
+
+cevap : 
+
+iki adet elimizde componentvar diyelim. Bunlardan bir tanesi parent diğeri child component olsun.
+
+constructor
+component wil mount 
+render
+child constructor 
+child compoennt will mount 
+child render
+child coponent did mount
+compoennt did mount 
+
+olarak hiyerarşiye sahiptir.
+
+
+bu tür işlemlerde parant component did mount'u her zaman en son çalışır.
