@@ -1,0 +1,7 @@
+Soru18- Async action?
+
+componentte action fonksiyonu icersinde normalde bir obje return ediyorduk. Simdi ise bir function return edecegiz.
+Thunk bizim yerimize ipleri eline alarak isi bittiginde ise bize tekrar geri dondurmus olacak.
+
+function icersinde axios ile bir api call u yaparak bir response olusturuyoruz ve bu response parent componentimizde
+mapleyerek artik sayfa icersinde bu maplenmis degerleri donebiliyor olacagiz.
