@@ -1,1 +1,10 @@
+Soru14- mapDispatchToProps Nedir?
 
+Bu dersimizde mapDispatchToPops ozellegimiz uzerinde calistik. Connect e 2. parametre olarak verdigimiz ve bizim
+dispatch ettigimiz actionlari mapleyen bir yapidir.
+
+const mapDispatchToProps ={
+  onUpdateUser : updateUser
+    };
+    
+export default connect(mapStateToProps, mapDispatchToProps)(App);
