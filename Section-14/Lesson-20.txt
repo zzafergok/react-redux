@@ -1,0 +1,17 @@
+Soru20- Async/Await ile servis Cagrimi?
+
+Normalde hocamizinda dedigi gibi bu kismin redux ile alakasi yok anca asenkron servis cagrimi oldugu icin konu icersinde 
+bir kac cumle islemis sagolsun.
+
+Async/Await function yapisi asagidaki gibidir.
+
+export function getUsers(){
+    return asyncc dispatch => {
+        try{
+          const res = await axios.get('api linki')
+          dispatch(updateUser(res.data.name));
+        }catch (e){
+          dispatch(showError());
+        }
+    }
+}
