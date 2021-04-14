@@ -1,0 +1,14 @@
+Redux Logger Middleware?
+
+oncelikle bu abimizi npm ile uygulama icersine kuruyoruz.
+npm install redux-logger -- save sonrasinda ise sayfa icersine loggeri ve middileware i import ediyoruz
+
+import logger from 'redux-logger';
+import {applyMiddleware, createStore} form 'redux';
+
+sonrasinda diger derslerde olusturdugumuz yapi uzerinde apiyormusuz gibi dusunebiliriz.
+
+const middleware = applyMiddleware(logger);
+const store = createStore(reducer, middleware);
+
+bu sekilde yazdigimizda browser uzerinde console tarafinda yapilan islemleri duzgun bir sekilde logladigini gorecegiz
