@@ -1,0 +1,6 @@
+soru : Actions dispacth etmek?
+
+cevap: 
+
+Öncelikle Action dosyasını oluşturduk ve actions tipini belirledik. Action creater'ımıız oluşturduk. Burada bir parametre tanımlıyoruz ve payload kısmında onu geçiyoruz.
+Daha sonra ilgili reducer'ımızda switch-case yapısı içerisinde buna bakıyoruz. Eğer ki bize böyle tipte bir değer gelirse ona göre return işlemini gerçekleştiriyoruz. Bundan da sonra actions'ta tanımladığımız action creater'ımızı app.js dosyamıza importluyoruz. Son olarak bu sayfada bir buton oluşturduk ve buna onClick eventi tanımladık. Bu eventin fonksiyonunu yazıp içerisine actions'ı dispatch ettik.
