@@ -1,0 +1,11 @@
+soru : react-router nedir?
+
+cevap: 
+
+react-router sayfalar arası geçişi ve o sayfada çalışacak componenti çalıştıran bir yapıdır.
+İndirdiğimiz npm dosyası içerisinden kullanacağımız sayfayaimport ederek yapısını o sayfa içerisinde elementler ile kurabiliriz.
+Başlıca 2adet componenti vardır react-router'ın. Bunlar BrowserRouter ve Route componentleri.
+
+kullanacağımız sayfada en dışa BrowserRouter gelmesi gerekir. Route yapısının içinede path'lerimizi ve çalışacak componentimiiz geçebiliriz.
+
+not: exact parametresi ile anasayfa path'i benzerlik göstereceği için anasayfaharicindeki diğer sayfalarda anasayfayı görürüz.Bunun için exact yazarak bu sorundan kurtulabiliriz.
