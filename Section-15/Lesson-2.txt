@@ -1,0 +1,53 @@
+Immutable Array?
+
+bu dersimizde ise array imizi nasil immutable tutabiliriz onu isledik.
+
+import {createStore} from 'redux';
+
+const initialState = {
+  count:1,
+  values:[]
+};
+
+const reducer = (state = initialState, action) => {
+  switch (action.type){
+    case"ADD":
+      // bu kisimda state.values.push(action.payload); seklinde yazarsak donen arrayimiz mutable olacaktir o yuzden asagidaki gibi kullanilmistir.
+      state = {
+        ...state,
+        count: state.count + action.payload
+        // bu alanda ise immutable olan array kullanildi
+        values:[...state.values, action.payload]
+      };
+      break;
+    case "SUBTRACT":
+       // bu kisimda state.values.push(action.payload); seklinde yazarsak donen arrayimiz mutable olacaktir o yuzden asagidaki gibi kullanilmistir.
+      state = {
+        ...state,
+        count: state.count - action.payload
+        // bu alanda ise immutable olan array kullanildi
+        values:[...state.values, action.payload]
+      };
+      break;
+  }
+  return state;
+}
+
+const store = creatStore(reducer, 1);
+
+store.subscribe(()=>{
+  console.log("store updated!", store.getState());
+});
+
+store.dispatch({
+  type:"ADD",
+  payload: 1
+});
+store.dispatch({
+  type:"ADD",
+  payload: 10
+});
+store.dispatch({
+  type:"SUBTRACT",
+  payload: 5
+});

@@ -1,0 +1,55 @@
+Async action pattern?
+
+redux-thunk kurarak islemlerimize basliyoruz ve daha sonrasinda sayfamiza import ediyoruz.
+
+bu pattern bize sayfanin yuklenmesi durumunu axios baglanti durumunun ne oldugunu consoleda bize surekli dispatch edip
+donen patternlerdir. Uygulama asagidaki gibidir.
+
+conts initialState = {
+  fetching : false,
+  fetched: false,
+  users: [],
+  error: null
+}
+
+const reducer = (state = initialState, action)=>{
+     switch(action.type){
+     case"FETCH_USERS_START":
+        return{
+          ...state,
+          fetching: true
+        };
+     case"FETCH_USERS_ERROR":
+        return{
+          ...state,
+          fetching: false,
+          error: action.payload
+        };
+     case"RECEIVE_USERS":
+        return{
+          ...state,
+          fetching : false,
+          fetched: true,
+          users: action.payload
+        };
+     default: state;
+     }
+    
+};
+
+store.dispatch(dispatch => {
+  dispatch({
+    type:"FETCH_USERS_START"
+  });
+  
+  axios.get('apilinki')
+  .then(response => response.data)
+  .then(response => dispatch ({
+    type:"RECEIVE_USERS",
+    payload: response
+  }))
+  .catch(error => dispatch({
+    type:"FETCH_USERS_ERROR"
+    payload:error
+  }))
+});

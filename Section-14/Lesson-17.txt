@@ -1,0 +1,19 @@
+Soru17- Redux Thunk Middleware: Kurulumu
+
+Middleware: Daha onceden backend dili ile ilgilenen birisi bu kavrama asina oluyormus. Asil yapilmak istenen isten once
+islemi farkli bir isleme tabi tutup o islemin durumuna gore en son isleme geciyor olmak aslinda middleware demekmis.
+Kisacasi ara katman anlamina geliyor.
+
+Bu middileware kavramini uygulama icersinde kurmamiz icin npm ile redux-thunk kuruyoruz. Yani terminale npm install redux-thunk --save
+yazarak bu yapiyi uygulamaya kuruyoruz.
+
+parent sayfamizin icersinde import ediyoruz.
+
+import thunk from 'redux-thunk';
+{compose ve applyMiddleware ozelliklerinide import etti ama nerden ettigini videoda goremedim}
+
+thunk kurulumu asagidaki gibidir.
+
+const allEnhancers = compose(
+    applyMiddleware(thunk)
+);

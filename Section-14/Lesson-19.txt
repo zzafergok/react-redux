@@ -1,0 +1,9 @@
+Soru19- Async action Dispatch Islemi?
+
+daha once dersimizde kurmus oldugumuz action yapisi icersine axiosa istek attiktan sonra repsonse a bir arrow function
+atiyoruz ve dispatch fonksiyonunu asagidaki gibi isleyebiliyoruz.
+
+.then(response => dispatch(uptadeUser(response.data.name)))
+
+//////
+uptadeUser = initial olarak verdigimiz action function u burada normalde baska bir isim yaziyor olarak dusunelim

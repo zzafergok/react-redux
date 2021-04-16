@@ -1,0 +1,11 @@
+Soru15- Component'e props gecmek?
+
+Parent component imizden bir props gectigimizde mapStateToProps ozellegi icersinde componentimizin icersinde kullandigimizde 
+paretn sayfada gecilen butun propslari mapStateToProps ozelligi sayesinde sayfada dondurebiliryoruz.
+
+const mapStateToProps = (state, props) => {
+    return{
+        ...state,
+        myCount: props.count + 2
+    }
+};
