@@ -1,0 +1,12 @@
+soru: path'e id'i nasıl verilir?
+
+cevap: route içerisinde path'imizin sonuna "/:id" tanımladıktan sonra componente match props'u dönüyor. Bu props'un içerisinden de dönen id datasını kullanabiliriz artık.
+
+stateless bir component:
+
+    const News = ({ match }) => {
+        return <h1>News Page : {match.params.id} </h1>;
+    };
+
+ana dizinimizde route işlemlerinin yapıldığı sayfa içerisinde route yazımı:
+    <Route path="/news/:id" strict component={News} />
