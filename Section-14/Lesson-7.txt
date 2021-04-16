@@ -1,0 +1,9 @@
+soru : Reducer a Initial State Vermek?
+
+cevap : Once bölümde olusturdugumuz combine reducer function parinin içersinde girip olusturdugumuz stateleri içersinde default olarak initial state giriyoruz 
+Const store = createStore(rootReducer, {
+    product:[{
+        name: “Yunus”,
+        name2: “Zafer”
+    }]
+));
