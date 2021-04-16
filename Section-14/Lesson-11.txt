@@ -1,0 +1,5 @@
+soru : Connect ile Componen den Store a Baglanti Saglamak?
+
+cevap : Connect element react-redux dosyasi içersinden sayfamıza import ederiz. Sonrasında export default satirinda bu eleman kullanarak componentimizi store umuza bağlarız.
+Export default connect() (App);
+
