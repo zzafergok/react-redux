@@ -1,0 +1,7 @@
+soru : Dispatch metodu ile store güncellemek?
+
+cevap : Bir action oluşturarak bu action içersinde bir type ve payload olarak oluştururuz.
+Type kısmına reducer tarafında karsilayacagimiz degeri yazıyoruz, payload ta ise değiştirmekt istediğimiz guncellenmis state i ekliyoruz.
+Reducer 2 adet parametre alır bu parametreler state ve action dir.
+Reducer fonksiyonu içersinde donen guncellenmis state parametre olarak girdiğimiz actioni koşulluyarak dinliyoruz.
+Sonrasynda store.dispatch(action); seklinde sayfamıza ekleyerek güncellenecek veriyi bu sekilde dinliyoruz.
