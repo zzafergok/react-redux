@@ -1,0 +1,3 @@
+soru : Dizin Yapisinin Oluşturulması?
+
+cevap : Projede birden fazla reducer olacağı icin ve bu reducer her bir state temsil ettigi icin ayrı ayrı olarak dosyalanmasi gerekmektedir. Ayrıca bunun yapilmasini bir nedeni ise temiz ve okunulabilir kod olması
