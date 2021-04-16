@@ -1,0 +1,21 @@
+Soru : combineReducers ile Multi Reducer Kullanımı?
+
+Gerçek bir projede birden fazla reducer olacağını düşününelim. Ve bu reducerlerı birleştirmemiz gerekecek. Bunları da conbineReducer ile birleştirebiliriz.
+
+Kullanim sekli asagidaki gibidir..
+
+function userReducer(state:"", action){
+    return state;
+}
+
+function productReducer(state:[], action){
+    return state;
+}
+
+const rootReducer = combineReducers({
+    user: userReducer,
+    product: productReducer
+})
+
+const store = createStore(rootReducer);
+
