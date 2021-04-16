@@ -1,0 +1,5 @@
+soru : Redux Nedir?
+
+cevap : Redux bir js kütüphanesidir. React in olmazsa olmazi olarak düşünülmesini Redux başlı basina  Dan Abramov abimizin geliştirdiği ayrı bir kütüphanedir. React ile isimlerinin birlikte geciyor olmasının sebebi entegre sekilde birlikte performanslı calismasindan dolayıdır. Literaturde state managment olarak geciyor. Kısaca componentler icersindeki stateleri yönetmemiz saglayan bir kütüphanedir.
+
+
