@@ -1,0 +1,6 @@
+soru: strict nedir?
+
+cevap :
+
+strict kullanılan route içerisinde tanımladığımız path'in dışına çıkmaz ve ne yazıldıysa o path'e sadık kalır.
+
