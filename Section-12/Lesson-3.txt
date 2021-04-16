@@ -1,0 +1,9 @@
+soru : component'i nasıl route içerisinde kullanırız ?
+
+cevap:
+
+Route componentimizin içerisine, component parametresini alır. Ve onu şöyle kullanırız.
+
+example: 
+
+          <Route path="/news" strict component={News} />
