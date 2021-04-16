@@ -1,0 +1,18 @@
+soru: fetch işlemi nedir?
+
+cevap: fetch işlemi react'ın hali hazırda içinde gelen network kaynağı okunabilir.
+
+fetch işlemi ile ağ üzerinden bu kaynakalara istek atılıp işlem yapılabilir. Bu işlemler componentDidMount içinde yapılır.
+
+örnekte olduğu gibi bir get işlemi yapılmaktadır.
+
+ componentDidMount() {
+    fetch("https://jsonplaceholder.typicode.com/users")
+      .then((data) => data.json())
+      .then((users) => {
+        this.setState({
+          users,
+        });
+        console.log(users);
+      });
+  }
