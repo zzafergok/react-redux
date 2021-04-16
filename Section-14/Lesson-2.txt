@@ -1,0 +1,11 @@
+soru : Redux data flow?
+
+cevap : 
+
+View: Ekranda butona basarız.
+Action: Bastigimiz buton state tarafında herhangi bir güncelleme veya kayıt attıgında islem gorur.
+Dispatcher: Aksiyon kısmında guncellenecek veya kayıt olacak veriyi store kısmında haber veren kisimdir. Bir nevi dinleyici diyebiliriz.
+Reducer: Bu eleman ise dispatcher tarafından uyarılır ve store tarafında tutulan statelerin guncellenmis halini (users, packs) kendi manipüle ederek store (usersReducer, packsReducer) state kismina bildiriyor ve state kendini tekrardan view katmanına güncelliyor.
+Store: Bu kısımda butun statelerimizi tutar.
+Genel olarak toplayacak olur isek store umuz state lerimiz tutuyor. Reducer ler ise pure function laldir yani tek bir deger döndürürler. Dispactherler ise action tarafını dinleyip reducer kısmına haber vermekle gorevlidir.
+
