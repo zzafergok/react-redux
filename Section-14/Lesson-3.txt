@@ -1,0 +1,5 @@
+soru : Store olusturmak?
+
+cevap :  Ilk basta projemiz ayağa kaldırdıktan sonra veya oncesinde npm install redux react-redux -- save -f seklinde terminale yazıp bundlemiz içerisine ekliyoruz.
+createStroe bilesenini sayfamıza redux içersinde import ediyoruz ve bu store umuz bir parametre istiyor. Bu parametre ise reducerdir. Bir function tanimlayio içersinde bir deger donum bu fonksiyonu store parametresine eklediğimizde kodumuz hatasız calisacaktir.
+
