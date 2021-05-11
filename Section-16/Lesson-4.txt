@@ -1,0 +1,14 @@
+yapılanlar:
+
+    projemize reduc devtools extension'ını kurmamız gerekiyor. Bunun için 
+        - npm i redux-devtools-extension --save 
+    şu şekilde npm paketi olan paketimizi projemize kurarız.
+
+Daha sonra index.js sayfamızda redux-thunk'ımızı ve redux'a ait olan applyMiddleWare'ımızı import ediyoruz.
+
+redux-devtools-extension'a ait olan composeWithDevtools'umuzun içine applyMiddleleWare'imizi alıyoruz ve onun içine de thunk'ımızı koyuyoruz. Buradaki kurulumu böylelikle bitirmiş oluyoruz. Son hali aşağıdaki gibi olacak.
+
+    const store = createStore(
+        rootReducer,
+        composeWithDevTools(applyMiddleware(thunk))
+    );
