@@ -1,0 +1,5 @@
+soru : Proje tanıtımı ve react uygulamasının ayağa kalkması
+
+cevap: Projemizde crud işlemleirnin olduğu bir film sitesi yapacağız. Yani ekleme, silme, güncelleme ve yeni bir filmi siteye ekleme işlerinin olduğu bir yapı da olacak.
+
+Önümüzdeki bir kaç ders kurulumlar ile geçecek şimdiden bilgilendirmek istedim sizleri.
