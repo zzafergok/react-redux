@@ -1,0 +1,16 @@
+yapılanlar: React Router kurulumu
+
+npm paketi olan router'ımızı projemize dahil etmek içinaşağıdaki kodu terminale yazıyoruz.
+    - npm i react-router-dom --save
+
+React router'ı kullanabilmek için daha önceki derslerimizde de yaptığımız gibi index.js dosyamızda {BrowserRouter}'ı tanımlayarak Provider'ımızı sarmalamamız lazım.
+
+ <BrowserRouter>
+    <Provider store={store}>
+        <App />
+    </Provider>
+</BrowserRouter>
+
+Daha sonra App.js sayfamızda Link ve Route'umuzu dahil ederek bir route'lama işi yapıyoruz. Öncelikle MoviesPage adı altında bir component oluşturuyoruz ve bunu src/components/pages altında oluşturuyoruz.
+
+basit bir route işlemi yaparak yazdıklarımızın çalışıp çalışmadığını test ediyoruz. Çalışıyor ise sorun yok eğer sorun yaşıyorsanız yaptığımız adımları tekrardan yavaş bir şekilde yaparak çalıştıracağınıza inanıyorum.
