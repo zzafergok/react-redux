@@ -1,0 +1,10 @@
+yapılanlar : MoviesList PropType'ının Tanımının Güncellenmesi
+
+Bir önceki dersimizde hatırlarsanız movies'imizin propType özelliğini object olarak değiştirmiştik. 
+Şimdi ise başka bir sorun meydana geldiği için ilk movies'imizin object özelliği kalacak fakat MoviesList componentimizdeki karşılığı array olması lazım çünkü orada bir array'a ihtiyacımız var ve orada karşılarken array olarak beklemek zorundayız. 
+
+MoviesList.propTypes = {
+  movies: PropTypes.shape({
+    movies: PropTypes.array.isRequired,
+  }).isRequired,
+};
