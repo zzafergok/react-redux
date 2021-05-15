@@ -1,0 +1,4 @@
+yapılanlar: Semantic UI Kit: Tema Düzenlemeleri
+
+hazır tema kullandığımız için o temanın ihtiyacımız olan kısımlarını bırakıp gere kalanını temizlediğimiz bir ders oldu.
+class ımız öncesinde kullanılan tanımlamaları styleHelper klasörü altında bir dosyada tutarak oradan importlamak daha temiz bir görünüm ve performans sağlayacağı için o şekilde kullandık.
