@@ -1,0 +1,6 @@
+yapılanlar: MoviesPage Component Redux Store Bağlantısı
+
+ 
+ movies page sayfamızda kullanacağımız mavies state'imizi sayfamıza tanımladık ve mapStateToProps function u ile gösterdik. 
+
+ daha sonra bu state imizin bir array olduğunu belli etmek için prop-types kullanarak zorunlu olduğunu ve bir array olduğunu başta tanımlamak için kullandık. Render'dan sonra bir log atarak state'imizin özelliklerini console kısmında görebildik.
