@@ -1,0 +1,3 @@
+yapılanlar: Sematic UI Kit: Bug Fix
+
+temamızı isteğimiz yönünde kırptıktan sonra ufak tefek css sorunları dikkatimizi çekti ve onları fix ledik.
