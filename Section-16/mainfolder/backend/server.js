@@ -11,7 +11,7 @@ app.use(cors());
 dotenv.config();
 
 const dbUrl =
-  "mongodb+srv://admin:admin@movie-app-admin.ixfbx.mongodb.net/myFirstDatabase?retryWrites=true&w=majority";
+  "mongodb://admin:12345@zzafergok-shard-00-00.bagoz.mongodb.net:27017,zzafergok-shard-00-01.bagoz.mongodb.net:27017,zzafergok-shard-00-02.bagoz.mongodb.net:27017/myFirstDatabase?ssl=true&replicaSet=atlas-ek45k6-shard-0&authSource=admin&retryWrites=true&w=majority";
 
 const validate = (data) => {
   let errors = {};
@@ -27,11 +27,13 @@ mongodb.MongoClient.connect(dbUrl, (err, db) => {
   }
 
   app.get("/api/movies", (req, res) => {
-    db.collection("movies")
-      .find({})
-      .toArray((err, movies) => {
-        res.json({ movies });
-      });
+    setTimeout(() => {
+      db.collection("movies")
+        .find({})
+        .toArray((err, movies) => {
+          res.json({ movies });
+        });
+    }, 2000);
   });
 
   app.post("/api/movies", (req, res) => {
@@ -40,7 +42,9 @@ mongodb.MongoClient.connect(dbUrl, (err, db) => {
       const { title, cover } = req.body;
       db.collection("movies").insert({ title, cover }, (err, result) => {
         if (err) {
-          res.status(500).json({ errors: { global: "Something went wrong" } });
+          res.status(500).json({
+            errors: { global: "Something went wrong" + "" + `${err}` },
+          });
         } else {
           res.json({ movie: result.ops[0] });
         }

@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { Container, Image, Menu, Visibility } from "semantic-ui-react";
 
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import { menuStyle, fixedMenuStyle, src } from "../helpers/styleHelpers";
 export class Header extends Component {
   state = {
@@ -9,12 +9,7 @@ export class Header extends Component {
     overlayFixed: false,
   };
 
-  stickOverlay = () => this.setState({ overlayFixed: true });
-
   stickTopMenu = () => this.setState({ menuFixed: true });
-
-  unStickOverlay = () => this.setState({ overlayFixed: false });
-
   unStickTopMenu = () => this.setState({ menuFixed: false });
 
   render() {
@@ -33,16 +28,14 @@ export class Header extends Component {
             style={menuFixed ? fixedMenuStyle : menuStyle}
           >
             <Container text>
-              <Menu.Item as={Link} to="/">
+              <Menu.Item as={Link} to="/" exact="true">
                 <Image size="mini" src={src} />
+                <Menu.Item header>MovieApp</Menu.Item>
               </Menu.Item>
-              <Menu.Item header as={Link} to="/">
-                MovieApp
+              <Menu.Item as={NavLink} to="/movies" exact>
+                Movies
               </Menu.Item>
-              <Menu.Item as={Link} to="/movies">
-                MoviesPage
-              </Menu.Item>
-              <Menu.Item as={Link} to="/add-new">
+              <Menu.Item as={NavLink} to="/add-new" exact>
                 Add New
               </Menu.Item>
             </Container>
