@@ -1,3 +1,0 @@
-### Yapılanlar: Anasayfa Tasarımının Yapılması
-
-####

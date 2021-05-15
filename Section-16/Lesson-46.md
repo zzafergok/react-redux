@@ -1,3 +1,0 @@
-### Yapılanlar: Redirect Bug Fix
-
-####

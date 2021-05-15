@@ -1,3 +1,0 @@
-Sizin istediğiniz şekilde arrayi filtrelemeye yarayan bir filtreleme fonksiyonu.
-
-Array içerisinde bir koşula bağlı mapleme yapılıyor aslında.

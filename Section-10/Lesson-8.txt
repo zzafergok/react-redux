@@ -1,4 +1,0 @@
-soru : component did update nedir?
-
-
-cevap: componentDidUpdate eventi iki parametre alır. Bunlar prevProps ve prevState'dir. State güncellendikten sonraki render işleminde sonra çalışır. Ve üstünde, state'in veya propsun veya her ikisinin güncellenmeden önceki halini tutar.

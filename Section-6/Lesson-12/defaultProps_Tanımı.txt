@@ -1,9 +1,0 @@
-defaultProps kullanımının amacı varsayalım componentimize almamız gereken props geçilmemiş ve karşılayacağımız conponentimizde kullanmamız lazım onu. Bunun için karşılayacağımız componentimizde şöyle bir yazım ile rahatlıkla default bir değer atayarak kullanabiliriz : 
-
-(render methodumuzun hemen üstünde tanımlama yapmamız lazım)
-
-static defaultProps = {
-    normaldeGelmesiGerekenPropsumuz: "merhaba ben geldim."
-}
-
-daha snra bu değerimizi aşağıda return içerisinde this.props.normaldeGelmesiGerekenPropsumuz yazarak ekranda gösterilmesini yapabiliriz.

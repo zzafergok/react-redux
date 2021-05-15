@@ -1,2 +1,0 @@
-yapılanlar: Projemizde redux yapısını kullanacağımız için klasör dizinimizi oluşturduk. Bunlar components, actions ve reducers klasörlerimizdir. Tüm proje akışı bu klasörler üzerinden yapılacaktır.
-

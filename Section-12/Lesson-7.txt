@@ -1,5 +1,0 @@
-soru: Redirect nedir?
-
-cevap :
-
-Redirect componenti sayfamıza react-router ile import ederek kullnabiliriz. Bu componenti kullanmamızın amacı yönledirme işlemi yapmaktır. Örnek verecek olursakta, kullnaıcı profil sayfasına login olmadan giderse anasayfaya redirect componenti ile koşullu bir şekilde yönlendirmesini sağlarız.

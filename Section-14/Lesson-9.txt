@@ -1,5 +1,0 @@
-soru : Provider Nedir?
-
-cevap : Redux store umuzun kullanilabilir ve erişilebilmesi icin bunu provider adi nesne ile sarmalanmasi gerekiyor.
-Kullanmak icin react-redux kismindan sayfamiza import ettikten sonra en dıştaki bilesenimizi sarmalamasa gerekiyor. Bir adet store olarak parametre alır ve bu parametreye store umuz girilir.
-ReactDOM.render(<Provider store = {store}> <App/> </Provider>)

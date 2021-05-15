@@ -1,5 +1,0 @@
-soru : Redux DevTools?
-
-cevap : RDT bu uygulamayı google chorem uzerinden kurarak browser uzerinden yaptigime geliştirmelere kolaylık sağlaması acısından çok faydalıdır. Indirmemiz tavsiye ediliyor.
-Bu kısma ise sayfa uzerinde inpect ettikten sonra  acilan pencereden RDT penceresine ulasabiliryoruz.
-

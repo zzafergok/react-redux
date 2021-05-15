@@ -1,7 +1,0 @@
-Propslar bir componentten bir başka componente sabit verilerin aktarılmasını sağlayan yapılardır.
-
-propslarda tanımladığımız veriler hiçbir zaman değişmeyecek.
-
-propsların değeri hiç bir zaman değişmeyeceği için react bunu bilir ve propsları hiçbir zaman render etmez.
-
-

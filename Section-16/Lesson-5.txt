@@ -1,8 +1,0 @@
-yapılanlar: Redux kurulumu - Provider
-
-Provider'ı yazmamızın sebebi redux'ı react uygulamamızın içinde kullnabilmek.
-
-index.js sayfamızda çağırdıktan sonra App dosyamızı sarmalıyoruz. Daha sonra oluşturduğumuz store'umuzu Provider'ımızda tanımlıyoruz. Son hali aşağıdaki gibi olacaktır:
-    <Provider store={store}>
-      <App />
-    </Provider>

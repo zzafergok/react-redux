@@ -1,3 +1,0 @@
-yapılanlar: Footer Componentinin Yazılması
-
-App.js klasörümüzde tanımladığımız theme mızın Footer kısmını ve gerekli bileşenlerini alarak components klasörü altında Footer.js dosyası üzerinde stateless bir component kullanarak yazdığımız bir component.

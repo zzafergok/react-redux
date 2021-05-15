@@ -1,8 +1,0 @@
-Soru : Arrow Function ile Binding
-
-Cevap : Function'umuzu oluştururken arrow function kullanarak oluşturduğumuzda daha temiz yazabiliriz ve başka hiçbir yerde bind etmek zorunda kalmayız fakat Facebook en temiz yolunu constructor içerisinde bind etme olarak tanımlıyor.
-
-addButton = () => {
-    console.log("merhaba arrow function ile bind ettim burada");
-}
-

@@ -1,1 +1,0 @@
-bir array in üzerinde gezinmek istediğimizde ve ya onu manipüle etmek istediğimizde kullandığımız fonksiyonlardan bir tanesi.

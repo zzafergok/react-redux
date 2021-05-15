@@ -1,9 +1,0 @@
-soru : Store Subscribe Methodu?
-
-cevap : 
-
-Storeda bir degisiklik oldugunda eğer haberdar olmak istersek bu methodu kullaniriz.
-Kullanim sekli asagidaki gibidir..
-store.subscribe( () => {
-    console.log(“store güncellendi”, store.getState)
-}); 

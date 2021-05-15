@@ -1,3 +1,0 @@
-### Yapılanlar: NewMovieForm Validasyon İşlemleri
-
-####

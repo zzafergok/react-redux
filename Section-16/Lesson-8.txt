@@ -1,7 +1,0 @@
-yapılanlar: MovieList Componentinin Hazırlanması
-
-MoviesList sayfamızı oluşturduk.
-
-moviesPage sayfamıza ekleyerek oradan movies state'ini alabilmesi return'un içinde kullanrak movies state'ini props olarak geçtik.
-
-daha sonra movies array'imizin içi dolu veya boş olduğu durumlara göre çıkacak yazılar ayarlandı. daha sonra array imizin içini kontrol edip on agöre çıkacak yazının ayarlanması yapıldı.

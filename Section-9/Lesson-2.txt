@@ -1,3 +1,0 @@
-yapılanlar:
-
-Bu derste projemizde kullanacağımız componentleri oluşturduk ve basit olarak html yapımızı yazdık.

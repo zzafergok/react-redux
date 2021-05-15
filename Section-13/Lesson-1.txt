@@ -1,7 +1,0 @@
-soru : High Order Component nedir?
-
-cevap :
-
-High order componentler tekrar eden mantıksal islemleri tek bir yerden yönetmek icin yazilmis olan componentler.
-
-Ornek olarak 10 adet buton kullandigimizı düşünürsek bu butonların durumlarını takip etmek icin high order componenti kullanabiliriz.

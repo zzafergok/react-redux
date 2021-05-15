@@ -1,7 +1,0 @@
-soru: Pure Component nedir?
-
-cevap : 
-
-Pure component shouldComponentUptade kullanması dışında diler componentler ile tamamen aynidir. Normal bir class yapısı içersinde extends satırında sonrasında Component yazdigimizda Pure component kullandigimizda extends ten sonra PureComponent seklinde yazmamız gerekiyor.
-
-Her yerde kullanmamiz her zaman mantıklı degildir sadece stratejik sayfalarda veya islemlerde bu bileseni kullanmamız react geliştiricilerimiz tarafindan sürekli söylenen bir öneridir.

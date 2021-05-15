@@ -1,9 +1,0 @@
-oneOfType kullanımında nasıl isRequired kullanırız diye düşünüyorsanız işte böyle kullanırız :) :
-
-    static propTypes = {
-        name: PropTypes.oneOfType([
-            PropTypes.number,
-            PropTypes.string,
-            PropTypes.array,
-        ]).isRequired
-    }

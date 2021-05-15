@@ -1,7 +1,0 @@
-sayfamızda karşıladığımız propsların birkaçını, hepsini ya da sadece bir tanesini bile zorunlu olarak belli bir yapıda istiyorsak propTypes'ımızın içinde değişken tipini yazdıktan hemen sonra ".isRquired" yazmak kafi.
-
-static propTypes = {
-    name: PropTypes.string.isRequired 
-}
-
-yukarıdaki yazım şekli ile zorunlu kıldık.

@@ -1,7 +1,0 @@
- Objeleri birbiri üzerine kopyalamaya yarayan bir fonksiyon.
-
-bir önceki objede olan bir değeri ekleyeceğimiz bir sonraki objede yer alıyor ise sonradan eklediğimiz objenin değerini alacaktır. Burada bir önceki objenin değerini ezmiş olur.
-
-mutable kavramında bir obje yaratıp bunu kullanarak başka bir obje atadığımızda ilk objemizin değeri değişir çünkü artık tanımladığımız objeyi referans almaktadır.
-
-immutable da ise referans almaz. 

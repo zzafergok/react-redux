@@ -1,3 +1,0 @@
-yapılanlar: Semantic UI kit: Kurulum
-
-projemize Semantic UI kiti kurduk ve oradaki hazır bir template i projemize entegre ettik. Gereksiz görülen kısımları kırparak ihtiyacımız olan kısımları bırakarak yoluuza devam ediyoruz.

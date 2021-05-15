@@ -1,5 +1,0 @@
-soru : Switch componenti ne işe yarar?
-
-cevap: 
-
-Bu component programlama mantığındaki switch-case mantığı ile aynıdır. Switch'i kullanırken Route'ları içine alırız. En son Route'taki path'e error componentini bind ederiz. Bind ettiğimiz error componentini, switch yapısı ile url kısmına yazdığımız linkler bizim path'lerimiz ile eşleşmez ise çalıştırır. 

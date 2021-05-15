@@ -1,9 +1,0 @@
- default bir modül tanımlarken :
-
- export default (referens geçmemiz lazım buraya) => { fonksiyonumuzun yapacağı işlemi yazmamız lazım }. Bu şekilde yazarız.
-
- importlama kısmında ise :
-
- import test {o dosya içinde varsa başka öodüller gelebilir buraya} from "dosya sizini gelecek buraya";
-
- test diye yazdığımız kısım bizim istediğimiz bir refereans adı olabilir bunu ide anlıyor default değerimiz olduğunu

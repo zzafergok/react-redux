@@ -1,5 +1,0 @@
-importlama yaparken kullanıdığımız adı değiştirmek ya da kısaltmak istediğimiz zaman :
-
-import {test as t} from "dosya yolu";
-
-artık biz test modülümüzü aşağıda 't' yazarak kullanabileceğiz

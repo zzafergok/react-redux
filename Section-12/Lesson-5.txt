@@ -1,9 +1,0 @@
-soru : Link objesi nedir?
-
-cevap:
-
-react-router-dom içinde bulunur kendisi. Kullanacağımız sayfada react-router-dom üzerinden çekip kullanırız.
-
-için eto parametresi alır ve bu parametre gidilecek path girmemiz içindir. Kullnaımı da şu şekildedir:
-
-          <Link to="/"> Home Page</Link>

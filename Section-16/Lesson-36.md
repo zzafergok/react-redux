@@ -1,3 +1,0 @@
-### Yapılanlar: onNewMovieSubmit Error Handle
-
-####

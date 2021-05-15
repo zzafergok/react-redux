@@ -1,6 +1,0 @@
-soru: stateful ve stateless nedir?
-
-cevap: 
-
-stateful: Componentimiz içerisinde herhangi bir yerinde state kullnaımı yapıyor isek bu compoenentimiz stateful componenttir.
-stateless: Componentimiz içerisinde render edilecek bir işlem yok ise static bir yapıya sahiptir. Bundan dolayı da react'ı boşuna yormamak için stateless olarak yazmamız gerekir.

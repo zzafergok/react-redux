@@ -1,7 +1,0 @@
-soru: component will mount nedir?
-
-cevap: 
-
-render işleminden hemen önce çalışan bir life cycle metodur. Genellikle hesaplama vb. işlemler için kullanılır.
-
-İçerisinde state barındırmaz. Çünkü render işleminde önce çalıştığı için state yazmamamız gerekir. 

@@ -1,7 +1,0 @@
-React, one way data binding felsefesini benimsemiş bir kütüohane. 
-
-Angular gibi frameworkler ise two way data binding felsefesini benimsemişler.
-
-Two way data binding felsefesinin çalışma prensibinde 'watcher' lar var ve bizim değişiklik olacak elementimizi dinliyorlar ve Componentimize ulaştırıyorlar.
-
-One way data binding felsefesinde ise değişecek yeri biz DOM'a söylüyoruz. Onun haricinde gereksiz yere elementlerimizi ya da elementimizi dinlemede bulunmuyor. React gücünü one way data binding'ten alıyor. Ben sürekli değişiklik yapmak istemiyorum. Değişiklik yapacağım zaman bana hber verin diyor.

@@ -1,3 +1,0 @@
-yapılanlar: Header Componentinin Yazılması
-
-App.js klasörümüzde tanımladığımız theme mızın Header kısmını ve gerekli bileşenlerini alarak components klasörü altında Header.js dosyası üzerinde statefull bir component kullanarak yazdığımız bir component.

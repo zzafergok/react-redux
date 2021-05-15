@@ -1,3 +1,0 @@
-Soru :  Constructor İçerisinde Binding
-
-Cevap : Constructoriçerisinde bind etme işlemini yaptığımızda return içerisinde eventi tanımladığımız yerde tekrardan bind etmemize gerek kalmıyor. Temiz kod yazmayı sağlıyor bu şekilde yazmamız.

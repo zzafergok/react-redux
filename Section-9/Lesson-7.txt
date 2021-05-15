@@ -1,6 +1,0 @@
-yapılanlar: 
-
-app.js içerisinde addContact fonksiyonu oluşturuldu ve props geçildi.
-contacts componentinde karşılandı ve form componentine props geçildi.
-form componentinde onSubmit fonksiyonu oluşturuldu ve state içindeki tüm objeleri addContact metodunun içine aktarıldı.
-Daha sonra addContact fonksiyonu içinde sayfada daha önce tanımladığımız state'imizi çağırdık ve onSubmit metodunda aktaılan state'lerimizi içine pushladık. Daha sonra değişiklikleri algılasın diye react'a bildirdik(setState kullanarak).

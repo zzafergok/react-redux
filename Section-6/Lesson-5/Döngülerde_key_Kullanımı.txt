@@ -1,7 +1,0 @@
-döngülerde key kullanımı oldukça önemli ve gereklidir.
-
-döngü arrayin içindeki her bir elemanı listelediği zaman bunlara bir unique değer vermesi gerekiyor ki içerideki elemanlar ile uğraşılmak istenildiğinde sorunlar çıkmasın diye.
-
-unique değer nedir diye soracak olursanız ; arraydeki elemanların 'id' numaraları olabilir ya da mapleme yaparken referans değer verirken 'index' gibi bir parametre vererek şöyle yazabiliriz :
-
-key={index} ya da key={(propsumuzun ya da statetimizin adı ve daha sonra unique olan değeri).id} gibi bir yazım olabilir

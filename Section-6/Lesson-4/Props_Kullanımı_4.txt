@@ -1,1 +1,0 @@
-bir önceki derste return'de süslü parantezler içinde tanımladıklarımızı render'ın hemen altında başka bir değere atarak aşağıda sadece o değişkeni süslü parantez içinde kullanırsak daha temiz yazarız kodumuzu ve kontrol etmesi bir o kadar kolay olur.

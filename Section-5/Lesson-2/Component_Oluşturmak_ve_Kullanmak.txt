@@ -1,3 +1,0 @@
-Bu kısımda NewsItem.js adında bir dosya oluşturduk ve bu sayfaya react'ı dahil ettik. Class'ımızı oluşturduktan sonra neredeyse şimdilik hiçbir şey yapmadık.
-
-Şimdilik ekranda gözüksün diye lorem attık p elementi içeriine ve bu dosyamızı App.js dosyamıza çağırıp kullanıdk. Günün sonunda ekranın ortasında kısa bir yazıdan oluşan lorem yazısını görmüş olduk.

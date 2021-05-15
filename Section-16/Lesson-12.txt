@@ -1,3 +1,0 @@
-yapılanlar : Sematic UI Kit: Bug Fix 2
-
-bir önceki dersimizde yaptığımız css sorunlarının devamını yaptık ve artık component yazmaya hazır hale getirdik.

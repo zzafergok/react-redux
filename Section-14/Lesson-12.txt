@@ -1,9 +1,0 @@
-soru : mapStateToProps?
-
-cevap : mapStateToProps o anki state içersinde ne varsa bu tanım sayesinde bize ciktilari map lemeye yarıyor.
-State olarak bir props donuyor ve connect nesnesinin içersinde parametre olarak olusturdugumuz tanımı giriyoruz
-
- Const mapStateToProps = store => {
-    return state;
-}
-Export default connect(mapStateToProps) (App);
